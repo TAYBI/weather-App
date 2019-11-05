@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: rgb(46, 40, 43);
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) -80%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: black;
+  border-radius: 15px;
+  padding: 20px 35px;
+  box-shadow: 0px 0px 30px rgb(172, 204, 241);
+}
+
+.title {
+  font-size: 28px;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.weather-icon {
+  max-width: 200px;
+}
+
+.temperature-value {
+  font-size: 25px;
+  cursor: pointer;
+  background: rgba(148, 187, 233, 1);
+  padding: 8px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.temperature-value:hover {
+  background: rgba(148, 200, 233, 1);
+}
+
+.temperature-description,
+.location {
+  font-size: 20px;
+}
+.location {
+  /* background: rgba(148, 187, 233, 1); */
+  padding: 8px;
+}
