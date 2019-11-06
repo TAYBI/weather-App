@@ -1,0 +1,29 @@
+{
+  "coord": { "lon": -6.61, "lat": 34.28 },
+  "weather": [
+    { "id": 801, "main": "Clouds", "description": "few clouds", "icon": "02n" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 284.9,
+    "pressure": 1019,
+    "humidity": 93,
+    "temp_min": 283.15,
+    "temp_max": 285.93
+  },
+  "visibility": 8000,
+  "wind": { "speed": 1.5, "deg": 130 },
+  "clouds": { "all": 20 },
+  "dt": 1573078936,
+  "sys": {
+    "type": 1,
+    "id": 2402,
+    "country": "MA",
+    "sunrise": 1573023034,
+    "sunset": 1573061371
+  },
+  "timezone": 3600,
+  "id": 6546897,
+  "name": "Kenitra",
+  "cod": 200
+}

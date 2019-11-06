@@ -20,7 +20,7 @@ img {
 }
 
 .container {
-  background: rgb(238, 174, 202);
+  width: 300px;
   background: radial-gradient(
     circle,
     rgba(238, 174, 202, 1) -80%,
@@ -29,6 +29,7 @@ img {
   color: black;
   border-radius: 15px;
   padding: 20px 35px;
+  border: rgb(105, 143, 185) 1px solid;
   box-shadow: 0px 0px 30px rgb(172, 204, 241);
 }
 
@@ -43,21 +44,18 @@ img {
 }
 
 .weather-icon {
-  max-width: 200px;
+  margin: 0 auto;
+  max-width: 150px;
+  margin-bottom: 15px;
 }
 
 .temperature-value {
   font-size: 25px;
-  cursor: pointer;
   background: rgba(148, 187, 233, 1);
   padding: 8px;
   border-radius: 20px;
   margin-bottom: 10px;
   transition: all 0.5s ease-in-out;
-}
-
-.temperature-value:hover {
-  background: rgba(148, 200, 233, 1);
 }
 
 .temperature-description,
@@ -67,4 +65,10 @@ img {
 .location {
   /* background: rgba(148, 187, 233, 1); */
   padding: 8px;
+}
+
+.notification {
+  padding: 15px;
+  font-size: 20px;
+  opacity: 0.9;
 }
